@@ -4,6 +4,18 @@
 
 ## Java基础
 
+### [异常](./java-basic/src/main/java/com/masq/basic/exception/Java异常.md)
+
+1. Java异常
+2. 捕获异常
+   - `try...catch`
+   - `finally`
+   - `try-with-resource`
+3. 抛出异常
+   - 异常的传播
+   - 抛出异常
+   - 异常屏蔽
+
 ###  [反射](./java-basic/src/main/java/com/masq/basic/reflection/反射.md)
 
 1. `Class`类
