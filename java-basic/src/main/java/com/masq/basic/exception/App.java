@@ -1,9 +1,6 @@
 package com.masq.basic.exception;
 
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
-
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -25,7 +22,17 @@ public class App {
 
 //        conversionException();
 //        exceptionShielding();
-        getAllException();
+//        getAllException();
+//        getException();
+        testApiException();
+    }
+
+    private static void testApiException() {
+        throw new ApiException(ErrorCode.NO_AUTHENTICATION);
+    }
+
+    private static void getException() throws Exception {
+        throw new Exception("测试", null);
     }
 
     public static void getAllException() throws Exception {
