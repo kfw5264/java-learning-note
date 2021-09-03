@@ -39,3 +39,11 @@
    - 读取注解
    - 使用注解
 
+## [泛型](./java-basic/src/main/java/com/masq/basic/generosity/泛型.md)
+
+1. 什么是泛型？泛型的作用
+2. 编写泛型
+3. `Extends`通配符
+4. `Super`通配符
+5. `PECS`原则
+6. 无限定通配符
